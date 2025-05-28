@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 
 import faq from "./routes/faq.js";
 import blog from "./routes/blog.js";
@@ -14,7 +15,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
-// app.use(cors());
+app.use(cors());
 
 // API Routes
 app.use("/blogs", blog);
