@@ -2,7 +2,13 @@ import { v4 as uuid } from "uuid";
 import { getProducts, saveProducts } from "../models/products.js";
 
 export const getAllProducts = (req, res) => {
-  const products = getProducts();
+  const { search } = req.query;
+  let products = getProducts();
+
+  if (search) {
+    const keyword = search.toLowerCase();
+    products = products.filter((p) => p.name.toLowerCase().includes(keyword));
+  }
   res.json(products);
 };
 

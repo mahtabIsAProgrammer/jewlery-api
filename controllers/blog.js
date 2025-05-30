@@ -1,8 +1,14 @@
 import { getblog, saveblog } from "../models/blog.js";
-// import { v4 as uuid } from "uuid";
+import { v4 as uuid } from "uuid";
 
 export const getAllblogs = (req, res) => {
-  const blogs = getblog();
+  const { search } = req.query;
+  let blogs = getblog();
+
+  if (search) {
+    const keyword = search.toLowerCase();
+    blogs = blogs.filter((b) => b.title.toLowerCase().includes(keyword));
+  }
   res.json(blogs);
 };
 

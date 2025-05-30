@@ -2,7 +2,13 @@ import { v4 as uuid } from "uuid";
 import { getUsers, saveUsers } from "../models/users.js";
 
 export const getAllUsers = (req, res) => {
-  const users = getUsers();
+  const { search } = req.query;
+  let users = getUsers();
+
+  if (search) {
+    const keyword = search.toLowerCase();
+    users = users.filter((u) => u.fullName.toLowerCase().includes(keyword));
+  }
   res.json(users);
 };
 
@@ -19,17 +25,14 @@ export const getUserById = (req, res) => {
 export const createUser = (req, res) => {
   const users = getUsers();
 
-  const { email, gender, password, lastName, userName, imageUrl, firstName } =
-    req.body;
+  const { email, gender, password, fullName, imageUrl } = req.body;
   const newUser = {
     id: uuid(),
     email,
     gender,
     password,
-    lastName,
-    userName,
+    fullName,
     imageUrl,
-    firstName,
   };
 
   users.push(newUser);
@@ -45,10 +48,8 @@ export const updateUser = (req, res) => {
     user.email = req.body.email || user.email;
     user.gender = req.body.gender || user.gender;
     user.password = req.body.password || user.password;
-    user.lastName = req.body.lastName || user.lastName;
-    user.userName = req.body.userName || user.userName;
+    user.fullName = req.body.fullName || user.fullName;
     user.imageUrl = req.body.imageUrl || user.imageUrl;
-    user.firstName = req.body.firstName || user.firstName;
     res.json(user);
     saveUsers(users);
   } else {

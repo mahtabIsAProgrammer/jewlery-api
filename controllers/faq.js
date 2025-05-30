@@ -2,7 +2,13 @@ import { v4 as uuid } from "uuid";
 import { getfaq, savefaq } from "../models/faq.js";
 
 export const getAllFaqs = (req, res) => {
-  const faqs = getfaq();
+  const { search } = req.query;
+  let faqs = getfaq();
+
+  if (search) {
+    const keyword = search.toLowerCase();
+    faqs = faqs.filter((f) => f.title.toLowerCase().includes(keyword));
+  }
   res.json(faqs);
 };
 

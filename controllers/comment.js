@@ -2,7 +2,15 @@ import { v4 as uuid } from "uuid";
 import { getcomment, savecomment } from "../models/comment.js";
 
 export const getAllComments = (req, res) => {
-  const comments = getcomment();
+  const { search } = req.query;
+  let comments = getcomment();
+
+  if (search) {
+    const keyword = search.toLowerCase();
+    comments = comments.filter((c) =>
+      c.productName.toLowerCase().includes(keyword)
+    );
+  }
   res.json(comments);
 };
 
