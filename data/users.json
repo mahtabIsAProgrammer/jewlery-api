@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
+    "email": "mahtabSalari9@gmail.com",
+    "gender": "female",
+    "password": "$2b$10$/hZokGaePdw3IoU4XIcAYecMhQM/NrkrXX4OTBXGVfb9FoNzItMJq",
+    "firstName": "Mahtab",
+    "lastName": "Salari",
+    "userName": "moonlight",
+    "role": "admin",
+    "phoneNumber": "09052619897"
+  }
+]

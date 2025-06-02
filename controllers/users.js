@@ -1,4 +1,6 @@
+import bcrypt from "bcryptjs";
 import { v4 as uuid } from "uuid";
+
 import { getUsers, saveUsers } from "../models/users.js";
 
 export const getAllUsers = (req, res) => {
@@ -25,14 +27,37 @@ export const getUserById = (req, res) => {
 export const createUser = (req, res) => {
   const users = getUsers();
 
-  const { email, gender, password, fullName, imageUrl } = req.body;
+  const {
+    email,
+    gender,
+    password,
+    userName,
+    role,
+    phoneNumber,
+    firstName,
+    lastName,
+    imageUrl,
+  } = req.body;
+  const hashedPassword = bcrypt.hashSync(password, 10);
+
+  const existingUser = users.find(
+    (u) => u.email === email || u.userName === userName
+  );
+  if (existingUser) {
+    return res.status(400).json({ message: "User already exists" });
+  }
+
   const newUser = {
     id: uuid(),
     email,
     gender,
-    password,
-    fullName,
+    password: hashedPassword,
+    firstName,
+    lastName,
     imageUrl,
+    userName,
+    role,
+    phoneNumber,
   };
 
   users.push(newUser);
@@ -47,9 +72,12 @@ export const updateUser = (req, res) => {
   if (user) {
     user.email = req.body.email || user.email;
     user.gender = req.body.gender || user.gender;
-    user.password = req.body.password || user.password;
-    user.fullName = req.body.fullName || user.fullName;
+    user.fistName = req.body.fistName || user.fistName;
+    user.lastName = req.body.lastName || user.lastName;
     user.imageUrl = req.body.imageUrl || user.imageUrl;
+    user.userName = req.body.userName || user.userName;
+    user.role = req.body.role || user.role;
+    user.phoneNumber = req.body.phoneNumber || user.phoneNumber;
     res.json(user);
     saveUsers(users);
   } else {
