@@ -23,8 +23,15 @@ export const getBlogById = (req, res) => {
 export const createBlog = (req, res) => {
   const blogs = getblog();
 
-  const { authorId, authorName, title, thumbnail, published, commentsCount } =
-    req.body;
+  const {
+    authorId,
+    authorName,
+    title,
+    details,
+    thumbnail,
+    published,
+    commentsCount,
+  } = req.body;
   const newBlog = {
     id: uuid(),
     authorId,
@@ -32,6 +39,7 @@ export const createBlog = (req, res) => {
     title,
     thumbnail,
     published,
+    details,
     commentsCount,
   };
 
@@ -49,6 +57,7 @@ export const updateBlog = (req, res) => {
     blog.title = req.body.title || blog.title;
     blog.thumbnail = req.body.thumbnail || blog.thumbnail;
     blog.published = req.body.published || blog.published;
+    blog.details = req.body.details || blog.details;
     blog.commentsCount = req.body.commentsCount || blog.commentsCount;
     res.json(blog);
     saveblog(blogs);

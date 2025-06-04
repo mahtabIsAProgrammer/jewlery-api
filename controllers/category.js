@@ -19,10 +19,13 @@ export const getCategoryById = (req, res) => {
 export const createCategory = (req, res) => {
   const categories = getcategory();
 
-  const { name } = req.body;
+  const { name, imageUrl, description, shortDescription } = req.body;
   const newCategory = {
     id: uuid(),
     name,
+    imageUrl,
+    description,
+    shortDescription,
   };
 
   categories.push(newCategory);
@@ -35,6 +38,10 @@ export const updateCategory = (req, res) => {
   const category = categories.find((c) => c.id == req.params.id);
   if (category) {
     category.name = req.body.name || category.name;
+    category.imageUrl = req.body.imageUrl || category.imageUrl;
+    category.description = req.body.description || category.description;
+    category.shortDescription =
+      req.body.shortDescription || category.shortDescription;
     res.json(category);
     savecategory(categories);
   } else {
