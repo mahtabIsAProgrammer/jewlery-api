@@ -9,7 +9,11 @@ export const getAllUsers = (req, res) => {
 
   if (search) {
     const keyword = search.toLowerCase();
-    users = users.filter((u) => u.fullName.toLowerCase().includes(keyword));
+    users = users.filter((u) =>
+      [u.firstName, u.lastName].some((field) =>
+        field.toLowerCase().includes(keyword)
+      )
+    );
   }
   res.json(users);
 };
