@@ -24,6 +24,8 @@ export const login = (req, res) => {
     }
   );
 
+  const { password: _, ...safeUser } = user;
+
   res
     .cookie("token", token, {
       httpOnly: true,
