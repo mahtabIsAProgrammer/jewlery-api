@@ -29,7 +29,6 @@ export const createProduct = (req, res) => {
     name,
     size,
     price,
-    image,
     color,
     style,
     brand,
@@ -39,6 +38,11 @@ export const createProduct = (req, res) => {
     isMaster,
     categoryId,
   } = req.body;
+
+  const image = req.file
+    ? `${req.protocol}://${req.get("host")}/data/users/${req.file.filename}`
+    : "";
+
   const newProduct = {
     id: uuid(),
     name,
@@ -64,24 +68,35 @@ export const updateProduct = (req, res) => {
   const products = getProducts();
 
   const product = products.find((f) => f.id == req.params.id);
-  if (product) {
-    product.name = req.body.name || product.name;
-    product.size = req.body.size || product.size;
-    product.price = req.body.price || product.price;
-    product.image = req.body.image || product.image;
-    product.color = req.body.color || product.color;
-    product.style = req.body.style || product.style;
-    product.brand = req.body.brand || product.brand;
-    product.detail = req.body.detail || product.detail;
-    product.length = req.body.length || product.length;
-    product.material = req.body.material || product.material;
-    product.isMaster = req.body.isMaster || product.isMaster;
-    product.categoryId = req.body.categoryId || product.categoryId;
-    res.json(product);
-    saveProducts(products);
-  } else {
-    res.status(404).json({ message: "product not found" });
+
+  if (!product) return res.status(404).json({ message: "Product not found" });
+
+  if (req.file) {
+    const oldImagePath = product.image?.split("/data/")[1];
+    if (oldImagePath) {
+      const fullPath = path.join("data", oldImagePath);
+      if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
+    }
+
+    product.image = `${req.protocol}://${req.get("host")}/data/products/${
+      req.file.filename
+    }`;
   }
+
+  product.name = req.body.name || product.name;
+  product.size = req.body.size || product.size;
+  product.price = req.body.price || product.price;
+  product.color = req.body.color || product.color;
+  product.style = req.body.style || product.style;
+  product.brand = req.body.brand || product.brand;
+  product.detail = req.body.detail || product.detail;
+  product.length = req.body.length || product.length;
+  product.material = req.body.material || product.material;
+  product.isMaster = req.body.isMaster || product.isMaster;
+  product.categoryId = req.body.categoryId || product.categoryId;
+
+  res.json(product);
+  saveProducts(products);
 };
 
 export const deleteProduct = (req, res) => {

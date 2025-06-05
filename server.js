@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import path from "path";
 
 import faq from "./routes/faq.js";
 import blog from "./routes/blog.js";
@@ -19,6 +20,7 @@ app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(cookieParser());
+app.use("/data", express.static(path.join(process.cwd(), "data")));
 
 // API Routes
 app.use("/blogs", blog);

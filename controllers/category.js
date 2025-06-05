@@ -19,7 +19,14 @@ export const getCategoryById = (req, res) => {
 export const createCategory = (req, res) => {
   const categories = getcategory();
 
-  const { name, imageUrl, description, shortDescription } = req.body;
+  const { name, description, shortDescription } = req.body;
+
+  const imageUrl = req.file
+    ? `${req.protocol}://${req.get("host")}/data/categories/${
+        req.file.filename
+      }`
+    : "";
+
   const newCategory = {
     id: uuid(),
     name,
@@ -36,17 +43,26 @@ export const createCategory = (req, res) => {
 export const updateCategory = (req, res) => {
   const categories = getcategory();
   const category = categories.find((c) => c.id == req.params.id);
-  if (category) {
-    category.name = req.body.name || category.name;
-    category.imageUrl = req.body.imageUrl || category.imageUrl;
-    category.description = req.body.description || category.description;
-    category.shortDescription =
-      req.body.shortDescription || category.shortDescription;
-    res.json(category);
-    savecategory(categories);
-  } else {
-    res.status(404).json({ message: "category not found" });
+
+  if (!category) return res.status(404).json({ message: "Category not found" });
+
+  if (req.file) {
+    const oldImagePath = category.imageUrl?.split("/data/")[1];
+    if (oldImagePath) {
+      const fullPath = path.join("data", oldImagePath);
+      if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
+    }
+
+    category.imageUrl = `${req.protocol}://${req.get("host")}/data/categories/${
+      req.file.filename
+    }`;
   }
+  category.name = req.body.name || category.name;
+  category.description = req.body.description || category.description;
+  category.shortDescription =
+    req.body.shortDescription || category.shortDescription;
+  res.json(category);
+  savecategory(categories);
 };
 
 export const deleteCategory = (req, res) => {

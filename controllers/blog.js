@@ -23,15 +23,13 @@ export const getBlogById = (req, res) => {
 export const createBlog = (req, res) => {
   const blogs = getblog();
 
-  const {
-    authorId,
-    authorName,
-    title,
-    details,
-    thumbnail,
-    published,
-    commentsCount,
-  } = req.body;
+  const { authorId, authorName, title, details, published, commentsCount } =
+    req.body;
+
+  const thumbnail = req.file
+    ? `${req.protocol}://${req.get("host")}/data/blogs/${req.file.filename}`
+    : "";
+
   const newBlog = {
     id: uuid(),
     authorId,
@@ -51,19 +49,29 @@ export const updateBlog = (req, res) => {
   const blogs = getblog();
 
   const blog = blogs.find((c) => c.id == req.params.id);
-  if (blog) {
-    blog.authorId = req.body.authorId || blog.authorId;
-    blog.authorName = req.body.authorName || blog.authorName;
-    blog.title = req.body.title || blog.title;
-    blog.thumbnail = req.body.thumbnail || blog.thumbnail;
-    blog.published = req.body.published || blog.published;
-    blog.details = req.body.details || blog.details;
-    blog.commentsCount = req.body.commentsCount || blog.commentsCount;
-    res.json(blog);
-    saveblog(blogs);
-  } else {
-    res.status(404).json({ message: "blog not found" });
+
+  if (!blog) return res.status(404).json({ message: "blog not found" });
+
+  if (req.file) {
+    const oldImagePath = blog.thumbnail?.split("/data/")[1];
+    if (oldImagePath) {
+      const fullPath = path.join("data", oldImagePath);
+      if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
+    }
+
+    blog.thumbnail = `${req.protocol}://${req.get("host")}/data/blogs/${
+      req.file.filename
+    }`;
   }
+
+  blog.authorId = req.body.authorId || blog.authorId;
+  blog.authorName = req.body.authorName || blog.authorName;
+  blog.title = req.body.title || blog.title;
+  blog.published = req.body.published || blog.published;
+  blog.details = req.body.details || blog.details;
+  blog.commentsCount = req.body.commentsCount || blog.commentsCount;
+  res.json(blog);
+  saveblog(blogs);
 };
 export const deleteBlog = (req, res) => {
   let blogs = getblog();

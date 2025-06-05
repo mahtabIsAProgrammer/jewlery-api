@@ -2,12 +2,22 @@
   {
     "id": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "email": "mahtabSalari9@gmail.com",
-    "gender": "female",
+    "gender": "1",
     "password": "$2b$10$/hZokGaePdw3IoU4XIcAYecMhQM/NrkrXX4OTBXGVfb9FoNzItMJq",
     "firstName": "Mahtab",
     "lastName": "Salari",
     "userName": "moonlight",
     "role": "admin",
     "phoneNumber": "09052619897"
+  },
+  {
+    "id": "43784f62-30bd-4245-99fb-b139e05d61f3",
+    "email": "AliceWolson@gmail.com",
+    "gender": "1",
+    "password": "$2b$10$AhIXoz8k6mftQlOFl1x2KePS2n8tvARmpaa7ygAFYPq9mF38RZVZy",
+    "lastName": "Wilson",
+    "imageUrl": "http://localhost:3000/data/users/1749135094832-938441150.jpg",
+    "userName": "aliceisalice",
+    "role": "admin"
   }
 ]

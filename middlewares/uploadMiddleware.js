@@ -1,21 +1,41 @@
-import multer from "multer";
-import path from "path";
 import fs from "fs";
+import path from "path";
+import multer from "multer";
 
-export const getUploadMiddleware = (type) => {
+// Helper to create folder if not exist
+const ensureDir = (dir) => {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+};
+
+// Middleware factory: pass the folder name
+const getMulterUploader = (folderName) => {
+  const uploadPath = path.join("data", folderName);
+  ensureDir(uploadPath);
+
   const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
-      const folder = `images/${type}`;
-      if (!fs.existsSync(folder)) {
-        fs.mkdirSync(folder, { recursive: true });
-      }
-      cb(null, folder);
+    destination: function (req, file, cb) {
+      cb(null, uploadPath);
     },
-    filename: (req, file, cb) => {
-      const uniqueName = `${Date.now()}-${file.originalname}`;
+    filename: function (req, file, cb) {
+      const ext = path.extname(file.originalname);
+      const uniqueName = `${Date.now()}-${Math.round(
+        Math.random() * 1e9
+      )}${ext}`;
       cb(null, uniqueName);
     },
   });
 
-  return multer({ storage });
+  const fileFilter = (req, file, cb) => {
+    if (file.mimetype.startsWith("image/")) {
+      cb(null, true);
+    } else {
+      cb(new Error("Only image files are allowed!"), false);
+    }
+  };
+
+  return multer({ storage, fileFilter });
 };
+
+export default getMulterUploader;

@@ -6,13 +6,16 @@ import {
   getAllProducts,
   getProductById,
 } from "../controllers/products.js";
+import getMulterUploader from "../middlewares/uploadMiddleware.js";
 
 const router = express.Router();
 
+const uploadImage = getMulterUploader("products");
+
 router.get("/", getAllProducts);
 router.get("/:id", getProductById);
-router.post("/", createProduct);
-router.put("/:id", updateProduct);
+router.post("/", uploadImage.single("image"), createProduct);
+router.put("/:id", uploadImage.single("image"), updateProduct);
 router.delete("/:id", deleteProduct);
 
 export default router;
