@@ -30,5 +30,9 @@ export const login = (req, res) => {
       //   secure: true,
       sameSite: "Strict",
     })
-    .json({ message: "Login Successful" });
+    .json({
+      message: "Login Successful",
+      token,
+      user: safeUser,
+    });
 };
