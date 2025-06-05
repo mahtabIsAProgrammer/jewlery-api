@@ -5,7 +5,7 @@ const router = express.Router();
 
 const uploadImage = getMulterUploader();
 
-router.post("/", uploadImage.single(""), (req, res) => {
+router.post("/", uploadImage.single("imageUrl"), (req, res) => {
   if (!req.file) return res.status(400).json({ message: "No file uploaded" });
 
   const imageUrl = `/data/${req.file.filename}`;
