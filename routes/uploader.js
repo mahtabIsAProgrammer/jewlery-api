@@ -1,5 +1,5 @@
 import express from "express";
-import getMulterUploader from "../middlewares/uploadMiddleware";
+import getMulterUploader from "../middlewares/uploadMiddleware.js";
 
 const router = express.Router();
 
