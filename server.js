@@ -9,6 +9,7 @@ import users from "./routes/users.js";
 import comment from "./routes/comment.js";
 import product from "./routes/product.js";
 import category from "./routes/category.js";
+import uploader from "./routes/uploader.js";
 import { login } from "./controllers/auth/login.js";
 import cookieParser from "cookie-parser";
 
@@ -25,6 +26,7 @@ app.use(cookieParser());
 app.use("/data", express.static(path.join(process.cwd(), "data")));
 
 // API Routes
+app.use("/upload", uploader);
 app.use("/blogs", blog);
 app.use("/faqs", faq);
 app.use("/users", users);

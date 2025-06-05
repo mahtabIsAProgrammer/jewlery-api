@@ -36,9 +36,8 @@ export const createUser = (req, res) => {
     phoneNumber,
     firstName,
     lastName,
+    imageUrl,
   } = req.body;
-
-  const imageUrl = req.file ? `/data/users/${req.file.filename}` : "";
 
   const hashedPassword = bcrypt.hashSync(password, 10);
 
@@ -72,28 +71,20 @@ export const updateUser = (req, res) => {
 
   const user = users.find((f) => f.id == req.params.id);
 
-  if (!user) return res.status(404).json({ message: "User not found" });
-
-  if (req.file) {
-    const oldImagePath = user.imageUrl?.split("/data/")[1];
-    if (oldImagePath) {
-      const fullPath = path.join("data", oldImagePath);
-      if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
-    }
-
-    user.imageUrl = `/data/users/${req.file.filename}`;
+  if (user) {
+    user.email = req.body.email || user.email;
+    user.gender = req.body.gender || user.gender;
+    user.fistName = req.body.fistName || user.fistName;
+    user.lastName = req.body.lastName || user.lastName;
+    user.imageUrl = req.body.imageUrl || user.imageUrl;
+    user.userName = req.body.userName || user.userName;
+    user.role = req.body.role || user.role;
+    user.phoneNumber = req.body.phoneNumber || user.phoneNumber;
+    res.json(user);
+    saveUsers(users);
+  } else {
+    res.status(404).json({ message: "user not found" });
   }
-
-  user.email = req.body.email || user.email;
-  user.gender = req.body.gender || user.gender;
-  user.firstName = req.body.firstName || user.firstName;
-  user.lastName = req.body.lastName || user.lastName;
-  user.userName = req.body.userName || user.userName;
-  user.role = req.body.role || user.role;
-  user.phoneNumber = req.body.phoneNumber || user.phoneNumber;
-
-  saveUsers(users);
-  res.json(user);
 };
 
 export const deleteUser = (req, res) => {

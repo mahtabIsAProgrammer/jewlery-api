@@ -10,8 +10,8 @@ const ensureDir = (dir) => {
 };
 
 // Middleware factory: pass the folder name
-const getMulterUploader = (folderName) => {
-  const uploadPath = path.join("data", folderName);
+const getMulterUploader = () => {
+  const uploadPath = path.join("data");
   ensureDir(uploadPath);
 
   const storage = multer.diskStorage({

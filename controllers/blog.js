@@ -23,17 +23,22 @@ export const getBlogById = (req, res) => {
 export const createBlog = (req, res) => {
   const blogs = getblog();
 
-  const { authorId, authorName, title, details, published, commentsCount } =
-    req.body;
-
-  const thumbnail = req.file ? `/data/blogs/${req.file.filename}` : "";
+  const {
+    authorId,
+    authorName,
+    imageUrl,
+    title,
+    details,
+    published,
+    commentsCount,
+  } = req.body;
 
   const newBlog = {
     id: uuid(),
     authorId,
     authorName,
     title,
-    thumbnail,
+    imageUrl,
     published,
     details,
     commentsCount,
@@ -48,27 +53,21 @@ export const updateBlog = (req, res) => {
 
   const blog = blogs.find((c) => c.id == req.params.id);
 
-  if (!blog) return res.status(404).json({ message: "blog not found" });
-
-  if (req.file) {
-    const oldImagePath = blog.thumbnail?.split("/data/")[1];
-    if (oldImagePath) {
-      const fullPath = path.join("data", oldImagePath);
-      if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
-    }
-
-    blog.thumbnail = `/data/blogs/${req.file.filename}`;
+  if (blog) {
+    blog.authorId = req.body.authorId || blog.authorId;
+    blog.authorName = req.body.authorName || blog.authorName;
+    blog.title = req.body.title || blog.title;
+    blog.imageUrl = req.body.imageUrl || blog.imageUrl;
+    blog.published = req.body.published || blog.published;
+    blog.details = req.body.details || blog.details;
+    blog.commentsCount = req.body.commentsCount || blog.commentsCount;
+    res.json(blog);
+    saveblog(blogs);
+  } else {
+    res.status(404).json({ message: "blog not found" });
   }
-
-  blog.authorId = req.body.authorId || blog.authorId;
-  blog.authorName = req.body.authorName || blog.authorName;
-  blog.title = req.body.title || blog.title;
-  blog.published = req.body.published || blog.published;
-  blog.details = req.body.details || blog.details;
-  blog.commentsCount = req.body.commentsCount || blog.commentsCount;
-  res.json(blog);
-  saveblog(blogs);
 };
+
 export const deleteBlog = (req, res) => {
   let blogs = getblog();
   const filtered = blogs.filter((b) => b.id !== req.params.id);
