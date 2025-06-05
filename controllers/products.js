@@ -39,9 +39,7 @@ export const createProduct = (req, res) => {
     categoryId,
   } = req.body;
 
-  const image = req.file
-    ? `${req.protocol}://${req.get("host")}/data/users/${req.file.filename}`
-    : "";
+  const image = req.file ? `/data/users/${req.file.filename}` : "";
 
   const newProduct = {
     id: uuid(),
@@ -78,9 +76,7 @@ export const updateProduct = (req, res) => {
       if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
     }
 
-    product.image = `${req.protocol}://${req.get("host")}/data/products/${
-      req.file.filename
-    }`;
+    product.image = `/data/products/${req.file.filename}`;
   }
 
   product.name = req.body.name || product.name;

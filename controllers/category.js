@@ -21,11 +21,7 @@ export const createCategory = (req, res) => {
 
   const { name, description, shortDescription } = req.body;
 
-  const imageUrl = req.file
-    ? `${req.protocol}://${req.get("host")}/data/categories/${
-        req.file.filename
-      }`
-    : "";
+  const imageUrl = req.file ? `/data/categories/${req.file.filename}` : "";
 
   const newCategory = {
     id: uuid(),
@@ -53,9 +49,7 @@ export const updateCategory = (req, res) => {
       if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
     }
 
-    category.imageUrl = `${req.protocol}://${req.get("host")}/data/categories/${
-      req.file.filename
-    }`;
+    category.imageUrl = `/data/categories/${req.file.filename}`;
   }
   category.name = req.body.name || category.name;
   category.description = req.body.description || category.description;

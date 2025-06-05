@@ -26,9 +26,7 @@ export const createBlog = (req, res) => {
   const { authorId, authorName, title, details, published, commentsCount } =
     req.body;
 
-  const thumbnail = req.file
-    ? `${req.protocol}://${req.get("host")}/data/blogs/${req.file.filename}`
-    : "";
+  const thumbnail = req.file ? `/data/blogs/${req.file.filename}` : "";
 
   const newBlog = {
     id: uuid(),
@@ -59,9 +57,7 @@ export const updateBlog = (req, res) => {
       if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
     }
 
-    blog.thumbnail = `${req.protocol}://${req.get("host")}/data/blogs/${
-      req.file.filename
-    }`;
+    blog.thumbnail = `/data/blogs/${req.file.filename}`;
   }
 
   blog.authorId = req.body.authorId || blog.authorId;

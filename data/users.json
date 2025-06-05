@@ -7,6 +7,7 @@
     "firstName": "Mahtab",
     "lastName": "Salari",
     "userName": "moonlight",
+    "imageUrl": "/data/users/1749135094832-938441150.jpg",
     "role": "admin",
     "phoneNumber": "09052619897"
   },
@@ -16,7 +17,7 @@
     "gender": "1",
     "password": "$2b$10$AhIXoz8k6mftQlOFl1x2KePS2n8tvARmpaa7ygAFYPq9mF38RZVZy",
     "lastName": "Wilson",
-    "imageUrl": "http://localhost:3000/data/users/1749135094832-938441150.jpg",
+    "imageUrl": "/data/users/1749135094832-938441150.jpg",
     "userName": "aliceisalice",
     "role": "admin"
   }

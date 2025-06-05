@@ -38,9 +38,7 @@ export const createUser = (req, res) => {
     lastName,
   } = req.body;
 
-  const imageUrl = req.file
-    ? `${req.protocol}://${req.get("host")}/data/users/${req.file.filename}`
-    : "";
+  const imageUrl = req.file ? `/data/users/${req.file.filename}` : "";
 
   const hashedPassword = bcrypt.hashSync(password, 10);
 
@@ -83,9 +81,7 @@ export const updateUser = (req, res) => {
       if (fs.existsSync(fullPath)) fs.unlinkSync(fullPath);
     }
 
-    user.imageUrl = `${req.protocol}://${req.get("host")}/data/users/${
-      req.file.filename
-    }`;
+    user.imageUrl = `/data/users/${req.file.filename}`;
   }
 
   user.email = req.body.email || user.email;

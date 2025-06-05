@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import path from "path";
+import dotenv from "dotenv";
 
 import faq from "./routes/faq.js";
 import blog from "./routes/blog.js";
@@ -15,6 +16,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
+dotenv.config();
 app.use(express.json());
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
