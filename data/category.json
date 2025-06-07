@@ -26,40 +26,40 @@
   {
     "id": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq",
     "name": "Necklaces",
-    "imageUrl": "data/uploads/category-home-ring.webp",
-    "thumbnail": "data/uploads/category-set.webp",
+    "imageUrl": "data/uploads/category-set.webp",
+    "thumbnail": "data/uploads/category-home-ring.webp",
     "description": "Make a statement with our captivating necklaces that add flair to any ensemble. From simple pendants to intricate designs, each necklace is crafted to highlight your unique style. Our collection features a range of lengths and styles, ensuring you find the perfect piece for any occasion. Elevate your wardrobe with a necklace that reflects your individuality.",
     "shortDescription": ""
   },
   {
     "id": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka",
     "name": "Ankle Jewelry",
-    "imageUrl": "data/uploads/category-home-ankle.webp",
-    "thumbnail": "data/uploads/category-feet.webp",
+    "imageUrl": "data/uploads/category-feet.webp",
+    "thumbnail": "data/uploads/category-home-ankle.webp",
     "description": "Step into style with our beautiful ankle jewelry, designed to adorn your ankles with grace. Perfect for summer outings or beach vacations, these pieces add a playful touch to your look. Crafted with care, our ankle jewelry combines comfort and fashion, making it an essential accessory for warm weather. Discover designs that range from simple chains to embellished styles.",
     "shortDescription": ""
   },
   {
     "id": "a045jddr4-3439d-0349-ck8n-seioke6era8wq",
     "name": "Crown",
-    "imageUrl": "data/uploads/category-home-crown.webp",
-    "thumbnail": "data/uploads/category-crown.webp",
+    "imageUrl": "data/uploads/category-crown.webp",
+    "thumbnail": "data/uploads/category-home-crown.webp",
     "description": "Embrace your inner royalty with our stunning crown jewelry, perfect for special occasions or themed events. Each crown is intricately designed with sparkling stones and elegant details, ensuring you stand out. Whether for a wedding, prom, or costume, our crowns add a touch of glamour and sophistication. Wear it with confidence and let your beauty shine.",
     "shortDescription": ""
   },
   {
     "id": "aa4c7b5e-3439d-0349-398n-seioke6era8wq",
     "name": "Half Set",
-    "imageUrl": "data/uploads/category-home-half-set.webp",
-    "thumbnail": "data/uploads/category-half-set.webp",
+    "imageUrl": "data/uploads/category-half-set.webp",
+    "thumbnail": "data/uploads/category-home-half-set.webp",
     "description": "Our half sets offer a curated selection of matching jewelry pieces that provide a cohesive look. Ideal for those who appreciate elegance without overwhelming their style, these sets typically include a necklace and earrings or a bracelet and ring. Each piece is designed to complement one another, making it easy to create a polished appearance. Perfect for gifting or personal indulgence.",
     "shortDescription": ""
   },
   {
     "id": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq",
     "name": "Set",
-    "imageUrl": "data/uploads/category-home-set.webp",
-    "thumbnail": "data/uploads/category-set.webp",
+    "imageUrl": "data/uploads/category-set.webp",
+    "thumbnail": "data/uploads/category-home-set.webp",
     "description": "Discover our complete jewelry sets that combine multiple pieces for a coordinated look. These sets typically include necklaces, earrings, and bracelets, designed to enhance your style effortlessly. Perfect for special occasions or as a thoughtful gift, each set is crafted to ensure harmony and elegance. Make a lasting impression with a jewelry set that reflects your taste.",
     "shortDescription": ""
   }

@@ -29,6 +29,7 @@ export const createProduct = (req, res) => {
     name,
     size,
     price,
+    rate,
     color,
     style,
     brand,
@@ -44,6 +45,7 @@ export const createProduct = (req, res) => {
     id: uuid(),
     name,
     size,
+    rate,
     price,
     imageUrl,
     color,
@@ -71,8 +73,9 @@ export const updateProduct = (req, res) => {
     product.size = req.body.size || product.size;
     product.price = req.body.price || product.price;
     product.imageUrl = req.body.imageUrl || product.imageUrl;
-    product.color = req.body.color || product.color;
     product.style = req.body.style || product.style;
+    product.color = req.body.color || product.color;
+    product.rate = req.body.rate || product.rate;
     product.brand = req.body.brand || product.brand;
     product.detail = req.body.detail || product.detail;
     product.length = req.body.length || product.length;

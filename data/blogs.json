@@ -18,7 +18,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "Choosing the Perfect Engagement Ring",
     "published": "2025-02-14",
-    "description": "A guide to selecting the ideal engagement ring. Learn about styles, settings, and the significance behind different gemstones.",
+    "shortDescription": "A guide to selecting the ideal engagement ring. Learn about styles, settings, and the significance behind different gemstones.",
     "details": "### Important Factors\n- Consider the 4 Cs: Cut, Color, Clarity, and Carat.\n- Popular styles: Solitaire, Halo, and Vintage."
   },
   {
@@ -29,7 +29,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "The Rise of Sustainable Jewelry",
     "published": "2025-03-05",
-    "description": "Explore the growing trend of sustainable jewelry. Learn how eco-friendly practices are reshaping the industry.",
+    "shortDescription": "Explore the growing trend of sustainable jewelry. Learn how eco-friendly practices are reshaping the industry.",
     "details": "### Sustainability in Jewelry\n- Ethical sourcing of materials.\n- Brands leading the way in eco-friendly practices."
   },
   {
@@ -40,7 +40,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "Accessorizing with Statement Jewelry",
     "published": "2025-04-18",
-    "description": "Learn how to make a statement with bold jewelry pieces. This blog covers tips for pairing statement jewelry with outfits.",
+    "shortDescription": "Learn how to make a statement with bold jewelry pieces. This blog covers tips for pairing statement jewelry with outfits.",
     "details": "### Styling Tips\n- Balance bold pieces with simple outfits.\n- Mix and match different textures and colors."
   },
   {
@@ -51,7 +51,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "Understanding Different Gemstones",
     "published": "2025-05-01",
-    "description": "An informative guide to various gemstones used in jewelry. Discover their meanings, properties, and how to care for them.",
+    "shortDescription": "An informative guide to various gemstones used in jewelry. Discover their meanings, properties, and how to care for them.",
     "details": "### Gemstone Overview\n- Popular gemstones: Sapphire, Emerald, and Ruby.\n- Care tips for maintaining their brilliance."
   },
   {
@@ -62,7 +62,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "The History of Jewelry Through the Ages",
     "published": "2025-06-10",
-    "description": "A fascinating journey through the history of jewelry. Explore how styles and materials have evolved over time.",
+    "shortDescription": "A fascinating journey through the history of jewelry. Explore how styles and materials have evolved over time.",
     "details": "### Historical Overview\n- Ancient civilizations and their jewelry styles.\n- The impact of cultural changes on jewelry design."
   },
   {
@@ -73,7 +73,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "DIY Jewelry Making: A Beginner’s Guide",
     "published": "2025-07-15",
-    "description": "Learn the basics of DIY jewelry making. This blog provides simple projects and tips for beginners.",
+    "shortDescription": "Learn the basics of DIY jewelry making. This blog provides simple projects and tips for beginners.",
     "details": "### Getting Started\n- Essential tools and materials needed.\n- Step-by-step instructions for making simple earrings and bracelets."
   },
   {
@@ -84,7 +84,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "Caring for Your Jewelry: Tips and Tricks",
     "published": "2025-08-20",
-    "description": "Essential tips for maintaining your jewelry's shine and longevity. Learn how to clean and store your pieces properly.",
+    "shortDescription": "Essential tips for maintaining your jewelry's shine and longevity. Learn how to clean and store your pieces properly.",
     "details": "### Care Instructions\n- Cleaning methods for different materials.\n- Best practices for storing jewelry to avoid damage."
   },
   {
@@ -95,7 +95,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "The Influence of Celebrity Jewelry Trends",
     "published": "2025-09-10",
-    "description": "Explore how celebrity styles influence jewelry trends. Discover iconic pieces that have made a mark in fashion.",
+    "shortDescription": "Explore how celebrity styles influence jewelry trends. Discover iconic pieces that have made a mark in fashion.",
     "details": "### Trend Analysis\n- Celebrities known for their unique jewelry styles.\n- How to incorporate celebrity trends into everyday wear."
   },
   {
@@ -106,7 +106,7 @@
     "authorId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
     "title": "Layering Necklaces: A Style Guide",
     "published": "2025-10-05",
-    "description": "Master the art of layering necklaces for a chic look. This blog shares tips on lengths, styles, and combinations.",
+    "shortDescription": "Master the art of layering necklaces for a chic look. This blog shares tips on lengths, styles, and combinations.",
     "details": "### Layering Techniques\n- Choosing the right lengths for layering.\n- Mixing different styles and materials for a personalized look."
   }
 ]

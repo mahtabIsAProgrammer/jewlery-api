@@ -6,12 +6,13 @@
     "price": "400.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Gucci",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": true,
-    "imageUrl": "data/uploads/ring-1.jpg",
+    "imageUrl": "data/uploads/ring-1.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -21,12 +22,13 @@
     "price": "300.0",
     "color": "purple",
     "style": "",
+    "rate": 5,
     "brand": "Gucci",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-2.jpg",
+    "imageUrl": "data/uploads/ring-2.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -36,12 +38,13 @@
     "price": "320.0",
     "color": "white",
     "style": "",
+    "rate": 3,
     "brand": "Gucci",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-3.jpg",
+    "imageUrl": "data/uploads/ring-3.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -51,12 +54,13 @@
     "price": "390.0",
     "color": "white",
     "style": "",
+    "rate": 2,
     "brand": "Gucci",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-4.jpg",
+    "imageUrl": "data/uploads/ring-4.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -66,12 +70,13 @@
     "price": "550.0",
     "color": "dark blue",
     "style": "",
+    "rate": 4,
     "brand": "Gucci",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-5.jpg",
+    "imageUrl": "data/uploads/ring-5.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -81,12 +86,13 @@
     "price": "500.0",
     "color": "cayn",
     "style": "",
+    "rate": 4,
     "brand": "Gucci",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-6.jpg",
+    "imageUrl": "data/uploads/ring-6.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -96,12 +102,13 @@
     "price": "300.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-7.jpg",
+    "imageUrl": "data/uploads/ring-7.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -111,12 +118,13 @@
     "price": "230.0",
     "color": "dark blue",
     "style": "",
+    "rate": 4,
     "brand": "Gucci",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-8.jpg",
+    "imageUrl": "data/uploads/ring-8.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -126,12 +134,13 @@
     "price": "350.0",
     "color": "green",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-9.jpg",
+    "imageUrl": "data/uploads/ring-9.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -141,12 +150,13 @@
     "price": "350.0",
     "color": "red",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ring-10.jpg",
+    "imageUrl": "data/uploads/ring-10.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -156,12 +166,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Steal",
     "isMaster": true,
-    "imageUrl": "data/uploads/earring-1.jpg",
+    "imageUrl": "data/uploads/earring-1.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -171,12 +182,13 @@
     "price": "350.0",
     "color": "light blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Steal",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-2.jpg",
+    "imageUrl": "data/uploads/earring-2.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -186,12 +198,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-3.jpg",
+    "imageUrl": "data/uploads/earring-3.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -201,12 +214,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-3.jpg",
+    "imageUrl": "data/uploads/earring-3.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -216,12 +230,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-4.jpg",
+    "imageUrl": "data/uploads/earring-4.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -231,12 +246,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-5.jpg",
+    "imageUrl": "data/uploads/earring-5.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -246,12 +262,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-6.jpg",
+    "imageUrl": "data/uploads/earring-6.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -261,12 +278,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-7.jpg",
+    "imageUrl": "data/uploads/earring-7.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -276,12 +294,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-8.jpg",
+    "imageUrl": "data/uploads/earring-8.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -291,12 +310,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-9.jpg",
+    "imageUrl": "data/uploads/earring-9.webp",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -306,12 +326,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/earring-10.jpg",
+    "imageUrl": "data/uploads/earring-10.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -321,12 +342,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-1.jpg",
+    "imageUrl": "data/uploads/braclet-1.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -336,12 +358,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 1,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-2.jpg",
+    "imageUrl": "data/uploads/braclet-2.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -351,12 +374,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-3.jpg",
+    "imageUrl": "data/uploads/braclet-3.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -366,12 +390,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-4.jpg",
+    "imageUrl": "data/uploads/braclet-4.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -381,12 +406,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-5.jpg",
+    "imageUrl": "data/uploads/braclet-5.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -396,12 +422,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-6.jpg",
+    "imageUrl": "data/uploads/braclet-6.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -411,12 +438,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 1,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-7.jpg",
+    "imageUrl": "data/uploads/braclet-7.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -426,12 +454,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 1,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-8.jpg",
+    "imageUrl": "data/uploads/braclet-8.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -441,12 +470,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-9.jpg",
+    "imageUrl": "data/uploads/braclet-9.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -456,12 +486,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/braclet-10.jpg",
+    "imageUrl": "data/uploads/braclet-10.webp",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -471,12 +502,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": true,
-    "imageUrl": "data/uploads/necklace-1.jpg",
+    "imageUrl": "data/uploads/necklace-1.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -486,12 +518,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-2.jpg",
+    "imageUrl": "data/uploads/necklace-2.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -501,12 +534,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-3.jpg",
+    "imageUrl": "data/uploads/necklace-3.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -516,12 +550,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-4.jpg",
+    "imageUrl": "data/uploads/necklace-4.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -531,12 +566,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-5.jpg",
+    "imageUrl": "data/uploads/necklace-5.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -546,12 +582,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-6.jpg",
+    "imageUrl": "data/uploads/necklace-6.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -561,12 +598,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-7.jpg",
+    "imageUrl": "data/uploads/necklace-7.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -576,12 +614,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-8.jpg",
+    "imageUrl": "data/uploads/necklace-8.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -591,12 +630,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-9.jpg",
+    "imageUrl": "data/uploads/necklace-9.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -606,12 +646,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/necklace-10.jpg",
+    "imageUrl": "data/uploads/necklace-10.webp",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -621,12 +662,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-1.jpg",
+    "imageUrl": "data/uploads/ankle-1.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -636,12 +678,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-2.jpg",
+    "imageUrl": "data/uploads/ankle-2.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -651,12 +694,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-3.jpg",
+    "imageUrl": "data/uploads/ankle-3.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -666,12 +710,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-4.jpg",
+    "imageUrl": "data/uploads/ankle-4.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -681,12 +726,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-5.jpg",
+    "imageUrl": "data/uploads/ankle-5.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -696,12 +742,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-6.jpg",
+    "imageUrl": "data/uploads/ankle-6.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -711,12 +758,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-7.jpg",
+    "imageUrl": "data/uploads/ankle-7.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -726,12 +774,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-8.jpg",
+    "imageUrl": "data/uploads/ankle-8.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -741,12 +790,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-9.jpg",
+    "imageUrl": "data/uploads/ankle-9.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -756,12 +806,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/ankle-10.jpg",
+    "imageUrl": "data/uploads/ankle-10.webp",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -771,12 +822,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": true,
-    "imageUrl": "data/uploads/crown-1.jpg",
+    "imageUrl": "data/uploads/crown-1.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -786,12 +838,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-2.jpg",
+    "imageUrl": "data/uploads/crown-2.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -801,12 +854,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-3.jpg",
+    "imageUrl": "data/uploads/crown-3.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -816,12 +870,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-4.jpg",
+    "imageUrl": "data/uploads/crown-4.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -831,12 +886,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-5.jpg",
+    "imageUrl": "data/uploads/crown-5.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -846,12 +902,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-6.jpg",
+    "imageUrl": "data/uploads/crown-6.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -861,12 +918,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 1,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-7.jpg",
+    "imageUrl": "data/uploads/crown-7.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -876,12 +934,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-8.jpg",
+    "imageUrl": "data/uploads/crown-8.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -891,12 +950,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 1,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-9.jpg",
+    "imageUrl": "data/uploads/crown-9.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -906,12 +966,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/crown-10.jpg",
+    "imageUrl": "data/uploads/crown-10.webp",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -921,12 +982,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 1,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-2.jpg",
+    "imageUrl": "data/uploads/half-set-2.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -936,12 +998,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-3.jpg",
+    "imageUrl": "data/uploads/half-set-3.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -951,12 +1014,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-4.jpg",
+    "imageUrl": "data/uploads/half-set-4.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -966,12 +1030,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-10.jpg",
+    "imageUrl": "data/uploads/half-set-10.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -981,12 +1046,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-5.jpg",
+    "imageUrl": "data/uploads/half-set-5.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -996,12 +1062,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-6.jpg",
+    "imageUrl": "data/uploads/half-set-6.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1011,12 +1078,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-7.jpg",
+    "imageUrl": "data/uploads/half-set-7.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1026,12 +1094,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-8.jpg",
+    "imageUrl": "data/uploads/half-set-8.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1041,12 +1110,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-9.jpg",
+    "imageUrl": "data/uploads/half-set-9.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1056,12 +1126,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/half-set-10.jpg",
+    "imageUrl": "data/uploads/half-set-10.webp",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1071,12 +1142,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-1.jpg",
+    "imageUrl": "data/uploads/set-1.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1086,12 +1158,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 3,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-2.jpg",
+    "imageUrl": "data/uploads/set-2.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1101,12 +1174,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 5,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-3.jpg",
+    "imageUrl": "data/uploads/set-3.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1116,12 +1190,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-4.jpg",
+    "imageUrl": "data/uploads/set-4.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1131,12 +1206,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-5.jpg",
+    "imageUrl": "data/uploads/set-5.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1146,12 +1222,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-6.jpg",
+    "imageUrl": "data/uploads/set-6.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1161,12 +1238,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-7.jpg",
+    "imageUrl": "data/uploads/set-7.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1176,12 +1254,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 2,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-8.jpg",
+    "imageUrl": "data/uploads/set-8.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1191,12 +1270,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 1,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-9.jpg",
+    "imageUrl": "data/uploads/set-9.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1206,12 +1286,13 @@
     "price": "350.0",
     "color": "blue",
     "style": "",
+    "rate": 4,
     "brand": "Zhuping",
     "detail": "",
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/uploads/set-10.jpg",
+    "imageUrl": "data/uploads/set-10.webp",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   }
 ]
