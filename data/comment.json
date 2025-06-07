@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "cc4ce5e-skdf-ds03-b1fb-ee2706f9a8ed",
+    "rate": 3,
+    "title": "",
+    "userId": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
+    "blogId": "",
+    "comment": "I absolutely loved this post! The tips on choosing the right engagement ring were incredibly helpful. I never realized how much the cut could affect the sparkle. Thank you for sharing!",
+    "userEmial": "",
+    "productId": "aa4c7b5e-309ld-4a24-3094-ee2we6era32d",
+    "isAccepted": true,
+    "createOn": "2025-06-01T10:30:00Z",
+    "productName": ""
+  },
+  {
+    "id": "cc4ce5e-sdo8-dfa2-b1fb-ee2706f9a8ed",
+    "rate": 3,
+    "title": "",
+    "userId": "21e7df59-02c6-40fe-846e-ca836efd2bbb",
+    "blogId": "",
+    "comment": "Great insights on sustainable jewelry! It's so important to consider the environmental impact of our purchases. I’m definitely going to look for eco-friendly options next time I shop.",
+    "userEmial": "",
+    "productId": "aa4c7b5e-309ld-4a24-3094-ee2we6era32d",
+    "isAccepted": true,
+    "createOn": "2025-06-02T14:15:00Z",
+    "productName": ""
+  },
+  {
+    "id": "cc4ce5e-skdf-ds03-b1fb-ee2706f9a8ed",
+    "rate": 3,
+    "title": "",
+    "userId": "43784f62-30bd-4245-99fb-b139e05d61f3",
+    "blogId": "",
+    "comment": "This guide on layering necklaces was just what I needed! I always struggled to combine different styles, but now I feel more confident in mixing and matching. Can't wait to try it out!",
+    "userEmial": "",
+    "productId": "aa4c7b5e-309ld-4a24-3094-ee2we6era32d",
+    "isAccepted": true,
+    "createOn": "2025-06-03T09:45:00Z",
+    "productName": ""
+  }
+]

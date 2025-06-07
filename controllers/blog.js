@@ -29,6 +29,7 @@ export const createBlog = (req, res) => {
     imageUrl,
     title,
     details,
+    shortDescription,
     published,
     commentsCount,
   } = req.body;
@@ -37,6 +38,7 @@ export const createBlog = (req, res) => {
     id: uuid(),
     authorId,
     authorName,
+    shortDescription,
     title,
     imageUrl,
     published,
@@ -58,6 +60,7 @@ export const updateBlog = (req, res) => {
     blog.authorName = req.body.authorName || blog.authorName;
     blog.title = req.body.title || blog.title;
     blog.imageUrl = req.body.imageUrl || blog.imageUrl;
+    blog.shortDescription = req.body.shortDescription || blog.shortDescription;
     blog.published = req.body.published || blog.published;
     blog.details = req.body.details || blog.details;
     blog.commentsCount = req.body.commentsCount || blog.commentsCount;

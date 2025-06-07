@@ -19,12 +19,13 @@ export const getCategoryById = (req, res) => {
 export const createCategory = (req, res) => {
   const categories = getcategory();
 
-  const { name, description, imageUrl, shortDescription } = req.body;
+  const { name, description, imageUrl, thumbnail, shortDescription } = req.body;
 
   const newCategory = {
     id: uuid(),
     name,
     imageUrl,
+    thumbnail,
     description,
     shortDescription,
   };
@@ -41,6 +42,7 @@ export const updateCategory = (req, res) => {
   if (category) {
     category.name = req.body.name || category.name;
     category.imageUrl = req.body.imageUrl || category.imageUrl;
+    category.thumbnail = req.body.thumbnail || category.thumbnail;
     category.description = req.body.description || category.description;
     category.shortDescription =
       req.body.shortDescription || category.shortDescription;

@@ -1,24 +1,38 @@
 [
   {
     "id": "aa4c7b5e-efc3-4a24-b1fb-ee2706f9a8ed",
-    "email": "mahtabSalari9@gmail.com",
     "gender": "1",
-    "password": "$2b$10$/hZokGaePdw3IoU4XIcAYecMhQM/NrkrXX4OTBXGVfb9FoNzItMJq",
-    "firstName": "Mahtab",
-    "lastName": "Salari",
-    "userName": "moonlight",
-    "imageUrl": "data/1749135094832-938441150.jpg",
     "role": "admin",
-    "phoneNumber": "09052619897"
+    "lastName": "Salari",
+    "firstName": "Mahtab",
+    "userName": "moonlight",
+    "phoneNumber": "09052619897",
+    "email": "mahtabSalari9@gmail.com",
+    "imageUrl": "data/images/1749135094832-938441150.jpg",
+    "password": "$2b$10$/hZokGaePdw3IoU4XIcAYecMhQM/NrkrXX4OTBXGVfb9FoNzItMJq"
   },
   {
     "id": "43784f62-30bd-4245-99fb-b139e05d61f3",
-    "email": "AliceWolson@gmail.com",
     "gender": "1",
-    "password": "$2b$10$AhIXoz8k6mftQlOFl1x2KePS2n8tvARmpaa7ygAFYPq9mF38RZVZy",
+    "role": "admin",
+    "firstName": "Alice",
     "lastName": "Wilson",
-    "imageUrl": "data/1749135094832-938441150.jpg",
     "userName": "aliceisalice",
-    "role": "admin"
+    "phoneNumber": "09052619897",
+    "email": "AliceWolson@gmail.com",
+    "imageUrl": "data/images/1749135094832-938441150.jpg",
+    "password": "$2b$10$AhIXoz8k6mftQlOFl1x2KePS2n8tvARmpaa7ygAFYPq9mF38RZVZy"
+  },
+  {
+    "id": "21e7df59-02c6-40fe-846e-ca836efd2bbb",
+    "email": "stephansalvatore23@gmail.com",
+    "gender": "2",
+    "password": "$2b$10$mbQaDqMEqfC1oiSxZDnmoO4GGokT6yytj0Ov3C/tZgkmVldf7VzSu",
+    "firstName": "Stephan",
+    "lastName": "Salvatore",
+    "imageUrl": "data/images/photo_2025-04-23_09-46-11.jpg",
+    "userName": "stephansalvatore23",
+    "role": "visitor",
+    "phoneNumber": "09382834442"
   }
 ]

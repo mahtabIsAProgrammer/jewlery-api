@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "aa4codj3-djf93-4a24-3094-ee2we6era32d",
+    "title": "Can you accept requests for custom product customization?",
+    "locale": "",
+    "categoryId": "",
+    "description": "Absolutely! The store welcomes requests for custom product designs tailored to individual preferences. Just reach out to their customer service for assistance."
+  },
+  {
+    "id": "aa4codj3-djf93-8439-fjs9-ee2we6era32d",
+    "title": "Does this store have product maintenance services?",
+    "locale": "",
+    "categoryId": "",
+    "description": "Yes, the store offers product maintenance services to ensure your items remain in optimal condition. Check with customer service for specific details on available services and pricing."
+  },
+  {
+    "id": "aa4codj3-djf93-dfkj-dsk9-ee2we6era32d",
+    "title": "Does this store have a policy of discounts and special offers?",
+    "locale": "",
+    "categoryId": "",
+    "description": "Yes, the store regularly provides discounts and special offers to customers. Check their website or subscribe to their newsletter for the latest promotions."
+  },
+  {
+    "id": "aa4codj3-djf93-dfoi-c782-ee2we6era32d",
+    "title": "Is it possible to return the goods?",
+    "locale": "",
+    "categoryId": "",
+    "description": "Yes, the store has a return policy that allows customers to return goods within a specified period. Make sure to keep the receipt and check the terms for eligibility."
+  }
+]
