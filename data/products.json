@@ -11,7 +11,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": true,
-    "imageUrl": "data/images/ring-1.jpg",
+    "imageUrl": "data/uploads/ring-1.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -26,7 +26,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-2.jpg",
+    "imageUrl": "data/uploads/ring-2.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -41,7 +41,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-3.jpg",
+    "imageUrl": "data/uploads/ring-3.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -56,7 +56,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-4.jpg",
+    "imageUrl": "data/uploads/ring-4.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -71,7 +71,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-5.jpg",
+    "imageUrl": "data/uploads/ring-5.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -86,7 +86,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-6.jpg",
+    "imageUrl": "data/uploads/ring-6.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -101,7 +101,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-7.jpg",
+    "imageUrl": "data/uploads/ring-7.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -116,7 +116,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-8.jpg",
+    "imageUrl": "data/uploads/ring-8.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -131,7 +131,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-9.jpg",
+    "imageUrl": "data/uploads/ring-9.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -146,7 +146,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/ring-10.jpg",
+    "imageUrl": "data/uploads/ring-10.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-b1fb-ee2we6era8wq"
   },
   {
@@ -161,7 +161,7 @@
     "length": "",
     "material": "Steal",
     "isMaster": true,
-    "imageUrl": "data/images/earring-1.jpg",
+    "imageUrl": "data/uploads/earring-1.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -176,7 +176,7 @@
     "length": "",
     "material": "Steal",
     "isMaster": false,
-    "imageUrl": "data/images/earring-2.jpg",
+    "imageUrl": "data/uploads/earring-2.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -191,7 +191,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-3.jpg",
+    "imageUrl": "data/uploads/earring-3.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -206,7 +206,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-3.jpg",
+    "imageUrl": "data/uploads/earring-3.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -221,7 +221,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-4.jpg",
+    "imageUrl": "data/uploads/earring-4.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -236,7 +236,7 @@
     "length": "",
     "material": "Silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-5.jpg",
+    "imageUrl": "data/uploads/earring-5.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -251,7 +251,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-6.jpg",
+    "imageUrl": "data/uploads/earring-6.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -266,7 +266,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-7.jpg",
+    "imageUrl": "data/uploads/earring-7.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -281,7 +281,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-8.jpg",
+    "imageUrl": "data/uploads/earring-8.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -296,7 +296,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-9.jpg",
+    "imageUrl": "data/uploads/earring-9.jpg",
     "categoryId": "aa4c7b5e-efc3-4a24-3094-ee2we6era8wq"
   },
   {
@@ -311,7 +311,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/earring-10.jpg",
+    "imageUrl": "data/uploads/earring-10.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -326,7 +326,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-1.jpg",
+    "imageUrl": "data/uploads/braclet-1.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -341,7 +341,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-2.jpg",
+    "imageUrl": "data/uploads/braclet-2.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -356,7 +356,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-3.jpg",
+    "imageUrl": "data/uploads/braclet-3.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -371,7 +371,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-4.jpg",
+    "imageUrl": "data/uploads/braclet-4.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -386,7 +386,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-5.jpg",
+    "imageUrl": "data/uploads/braclet-5.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -401,7 +401,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-6.jpg",
+    "imageUrl": "data/uploads/braclet-6.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -416,7 +416,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-7.jpg",
+    "imageUrl": "data/uploads/braclet-7.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -431,7 +431,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-8.jpg",
+    "imageUrl": "data/uploads/braclet-8.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -446,7 +446,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-9.jpg",
+    "imageUrl": "data/uploads/braclet-9.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -461,7 +461,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/braclet-10.jpg",
+    "imageUrl": "data/uploads/braclet-10.jpg",
     "categoryId": "aa4c7b5e-efc3-0349-3094-455we6era8wq"
   },
   {
@@ -476,7 +476,7 @@
     "length": "",
     "material": "silver",
     "isMaster": true,
-    "imageUrl": "data/images/necklace-1.jpg",
+    "imageUrl": "data/uploads/necklace-1.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -491,7 +491,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-2.jpg",
+    "imageUrl": "data/uploads/necklace-2.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -506,7 +506,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-3.jpg",
+    "imageUrl": "data/uploads/necklace-3.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -521,7 +521,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-4.jpg",
+    "imageUrl": "data/uploads/necklace-4.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -536,7 +536,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-5.jpg",
+    "imageUrl": "data/uploads/necklace-5.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -551,7 +551,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-6.jpg",
+    "imageUrl": "data/uploads/necklace-6.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -566,7 +566,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-7.jpg",
+    "imageUrl": "data/uploads/necklace-7.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -581,7 +581,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-8.jpg",
+    "imageUrl": "data/uploads/necklace-8.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -596,7 +596,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-9.jpg",
+    "imageUrl": "data/uploads/necklace-9.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -611,7 +611,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/necklace-10.jpg",
+    "imageUrl": "data/uploads/necklace-10.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-3094-2kfj4e6era8wq"
   },
   {
@@ -626,7 +626,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-1.jpg",
+    "imageUrl": "data/uploads/ankle-1.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -641,7 +641,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-2.jpg",
+    "imageUrl": "data/uploads/ankle-2.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -656,7 +656,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-3.jpg",
+    "imageUrl": "data/uploads/ankle-3.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -671,7 +671,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-4.jpg",
+    "imageUrl": "data/uploads/ankle-4.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -686,7 +686,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-5.jpg",
+    "imageUrl": "data/uploads/ankle-5.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -701,7 +701,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-6.jpg",
+    "imageUrl": "data/uploads/ankle-6.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -716,7 +716,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-7.jpg",
+    "imageUrl": "data/uploads/ankle-7.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -731,7 +731,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-8.jpg",
+    "imageUrl": "data/uploads/ankle-8.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -746,7 +746,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-9.jpg",
+    "imageUrl": "data/uploads/ankle-9.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -761,7 +761,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/ankle-10.jpg",
+    "imageUrl": "data/uploads/ankle-10.jpg",
     "categoryId": "aa4c7b5e-3940s-0349-3094-2kfj4e6er3djka"
   },
   {
@@ -776,7 +776,7 @@
     "length": "",
     "material": "silver",
     "isMaster": true,
-    "imageUrl": "data/images/crown-1.jpg",
+    "imageUrl": "data/uploads/crown-1.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -791,7 +791,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-2.jpg",
+    "imageUrl": "data/uploads/crown-2.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -806,7 +806,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-3.jpg",
+    "imageUrl": "data/uploads/crown-3.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -821,7 +821,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-4.jpg",
+    "imageUrl": "data/uploads/crown-4.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -836,7 +836,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-5.jpg",
+    "imageUrl": "data/uploads/crown-5.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -851,7 +851,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-6.jpg",
+    "imageUrl": "data/uploads/crown-6.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -866,7 +866,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-7.jpg",
+    "imageUrl": "data/uploads/crown-7.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -881,7 +881,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-8.jpg",
+    "imageUrl": "data/uploads/crown-8.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -896,7 +896,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-9.jpg",
+    "imageUrl": "data/uploads/crown-9.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -911,7 +911,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/crown-10.jpg",
+    "imageUrl": "data/uploads/crown-10.jpg",
     "categoryId": "a045jddr4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -926,7 +926,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-2.jpg",
+    "imageUrl": "data/uploads/half-set-2.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -941,7 +941,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-3.jpg",
+    "imageUrl": "data/uploads/half-set-3.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -956,7 +956,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-4.jpg",
+    "imageUrl": "data/uploads/half-set-4.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -971,7 +971,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-10.jpg",
+    "imageUrl": "data/uploads/half-set-10.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -986,7 +986,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-5.jpg",
+    "imageUrl": "data/uploads/half-set-5.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1001,7 +1001,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-6.jpg",
+    "imageUrl": "data/uploads/half-set-6.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1016,7 +1016,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-7.jpg",
+    "imageUrl": "data/uploads/half-set-7.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1031,7 +1031,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-8.jpg",
+    "imageUrl": "data/uploads/half-set-8.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1046,7 +1046,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-9.jpg",
+    "imageUrl": "data/uploads/half-set-9.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1061,7 +1061,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/half-set-10.jpg",
+    "imageUrl": "data/uploads/half-set-10.jpg",
     "categoryId": "aa4c7b5e-3439d-0349-398n-seioke6era8wq"
   },
   {
@@ -1076,7 +1076,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-1.jpg",
+    "imageUrl": "data/uploads/set-1.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1091,7 +1091,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-2.jpg",
+    "imageUrl": "data/uploads/set-2.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1106,7 +1106,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-3.jpg",
+    "imageUrl": "data/uploads/set-3.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1121,7 +1121,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-4.jpg",
+    "imageUrl": "data/uploads/set-4.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1136,7 +1136,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-5.jpg",
+    "imageUrl": "data/uploads/set-5.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1151,7 +1151,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-6.jpg",
+    "imageUrl": "data/uploads/set-6.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1166,7 +1166,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-7.jpg",
+    "imageUrl": "data/uploads/set-7.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1181,7 +1181,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-8.jpg",
+    "imageUrl": "data/uploads/set-8.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1196,7 +1196,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-9.jpg",
+    "imageUrl": "data/uploads/set-9.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   },
   {
@@ -1211,7 +1211,7 @@
     "length": "",
     "material": "silver",
     "isMaster": false,
-    "imageUrl": "data/images/set-10.jpg",
+    "imageUrl": "data/uploads/set-10.jpg",
     "categoryId": "aa4cwer4-3439d-0349-ck8n-seioke6era8wq"
   }
 ]
